@@ -14,6 +14,6 @@ author: founder
 
 {% assign posts = site.posts | where: "lang", "en" | where_exp: "post", "post.categories contains 'information-discernment'" | sort: "date" | reverse %}
 {% for post in posts %}
-- <time>{{ post.date | date: "%Y-%m-%d" }}</time> [{{ post.title }}]({{ post.url }})
+- <time>{{ post.date | date: "%Y-%m-%d" }}</time> [{{ post.title }}]({{ post.url | prepend: site.baseurl }})
   {{ post.description }}
 {% endfor %}

@@ -23,6 +23,6 @@ ICD公式サイトへようこそ。
 ## 最新の記事
 
 {% assign latest = site.posts | where: "lang", "ja" | sort: "date" | reverse %}
-{% for post in latest limit:5 %}
-- [{{ post.title }}]({{ post.url }}) <time>{{ post.date | date: "%Y-%m-%d" }}</time>
+{% for post in latest limit:3 %}
+- [{{ post.title }}]({{ post.url | prepend: site.baseurl }}) <time>{{ post.date | date: "%Y-%m-%d" }}</time>
 {% endfor %}

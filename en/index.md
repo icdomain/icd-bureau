@@ -23,6 +23,6 @@ Welcome to the official site of the Independent Compute Domain.
 ## Latest posts
 
 {% assign latest = site.posts | where: "lang", "en" | sort: "date" | reverse %}
-{% for post in latest limit:5 %}
-- [{{ post.title }}]({{ post.url }}) <time>{{ post.date | date: "%Y-%m-%d" }}</time>
+{% for post in latest limit:3 %}
+- [{{ post.title }}]({{ post.url | prepend: site.baseurl }}) <time>{{ post.date | date: "%Y-%m-%d" }}</time>
 {% endfor %}

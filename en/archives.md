@@ -16,7 +16,7 @@ All ICD posts in reverse chronological order.
 
 {% assign all_posts = site.posts | where: "lang", "en" | sort: "date" | reverse %}
 {% for post in all_posts %}
-- <time>{{ post.date | date: "%Y-%m-%d" }}</time> [{{ post.title }}]({{ post.url }}) `{{ post.categories | join: ", " }}`
+- <time>{{ post.date | date: "%Y-%m-%d" }}</time> [{{ post.title }}]({{ post.url | prepend: site.baseurl }}) `{{ post.categories | join: ", " }}`
   {{ post.description }}
 {% endfor %}
 

@@ -16,7 +16,7 @@ ICDの全記録を保管する巨大アーカイブです。
 
 {% assign all_posts = site.posts | where: "lang", "ja" | sort: "date" | reverse %}
 {% for post in all_posts %}
-- <time>{{ post.date | date: "%Y-%m-%d" }}</time> [{{ post.title }}]({{ post.url }}) `{{ post.categories | join: ", " }}`
+- <time>{{ post.date | date: "%Y-%m-%d" }}</time> [{{ post.title }}]({{ post.url | prepend: site.baseurl }}) `{{ post.categories | join: ", " }}`
   {{ post.description }}
 {% endfor %}
 
