@@ -1,0 +1,8 @@
+title: Independent Compute Domain
+url: https://icdomain.github.io
+timezone: Etc/UTC
+theme: jekyll-theme-hacker
+
+# forGoogle Search Console
+plugins:
+  - jekyll-sitemap

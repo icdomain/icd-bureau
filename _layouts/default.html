@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: 'en' }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  {% if page.description %}
+  <meta name="description" content="{{ page.description }}">
+  {% endif %}
+
+  {% comment %} Canonical and hreflang {% endcomment %}
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  <link rel="alternate" hreflang="{{ page.lang }}" href="{{ site.url }}{{ page.url }}">
+  {% if page.alt_lang_url %}
+    {% if page.lang == 'ja' %}
+  <link rel="alternate" hreflang="en" href="{{ site.url }}{{ page.alt_lang_url }}">
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.alt_lang_url }}">
+    {% else %}
+  <link rel="alternate" hreflang="ja" href="{{ site.url }}{{ page.alt_lang_url }}">
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.url }}">
+    {% endif %}
+  {% endif %}
+
+  {% comment %} OGP {% endcomment %}
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{{ page.description }}">
+  <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:locale" content="{% if page.lang == 'ja' %}ja_JP{% else %}en_US{% endif %}">
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="/{{ page.lang }}/" class="site-title">{{ site.title }}</a>
+    <nav class="site-nav">
+      {% if page.lang == 'ja' %}
+        <a href="/ja/">インデックス</a>
+        <a href="/ja/strategic-forecasting/">構造予報</a>
+        <a href="/ja/information-discernment/">AI時代の情報リテラシー</a>
+        <a href="/ja/archives/">アーカイブ</a>
+      {% else %}
+        <a href="/en/">Index</a>
+        <a href="/en/strategic-forecasting/">Strategic Forecasting</a>
+        <a href="/en/information-discernment/">Information Discernment</a>
+        <a href="/en/archives/">Archives</a>
+      {% endif %}
+    </nav>
+    <div class="lang-switch">
+      {% if page.alt_lang_url %}
+        <a href="{{ page.alt_lang_url }}" id="lang-switch-link">
+          {% if page.lang == 'ja' %}English{% else %}日本語{% endif %}
+        </a>
+      {% endif %}
+    </div>
+  </div>
+</header>
+
+<main class="site-main">
+  {{ content }}
+</main>
+
+<footer class="site-footer">
+  <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</p>
+</footer>
+
+<script>
+(function() {
+  var link = document.getElementById('lang-switch-link');
+  if (!link) return;
+  link.addEventListener('click', function() {
+    var lang = '{{ page.lang }}' === 'ja' ? 'en' : 'ja';
+    try { localStorage.setItem('icd-lang', lang); } catch(e) {}
+  });
+})();
+</script>
+
+</body>
+</html>
