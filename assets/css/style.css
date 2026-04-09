@@ -1,0 +1,220 @@
+/* ============================================================
+   ICD Bureau — Base Theme
+   Background: #0d0d0d / #111 / #1a1a1a
+   Accent:     #870002
+   Text:       #cccccc / #eeeeee
+   ============================================================ */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background-color: #0d0d0d;
+  color: #cccccc;
+  font-family: 'JetBrains Mono', 'IBM Plex Mono', 'Menlo', 'Courier New', monospace;
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+/* ── Links ── */
+a {
+  color: #999999;
+  text-decoration: none;
+  border-bottom: 1px solid #870002;
+  transition: color 0.15s, border-color 0.15s;
+}
+a:hover {
+  color: #eeeeee;
+  border-bottom-color: #870002;
+}
+
+/* ── Headings ── */
+h1, h2, h3, h4, h5, h6 {
+  color: #eeeeee;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 0.6rem;
+}
+h1 {
+  font-size: 1.6rem;
+  letter-spacing: 0.04em;
+  border-bottom: 2px solid #870002;
+  padding-bottom: 0.35em;
+}
+h2 {
+  font-size: 1.2rem;
+  letter-spacing: 0.03em;
+  border-left: 3px solid #870002;
+  padding-left: 0.65em;
+}
+h3 { font-size: 1rem; color: #bbbbbb; }
+h4 { font-size: 0.9rem; color: #999999; text-transform: uppercase; letter-spacing: 0.08em; }
+
+/* ── Header ── */
+.site-header {
+  background: #111111;
+  border-bottom: 1px solid #870002;
+  padding: 0.75rem 1.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.header-inner {
+  max-width: 860px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.site-title {
+  color: #eeeeee;
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  border-bottom: none;
+  white-space: nowrap;
+}
+.site-title:hover { color: #870002; border-bottom: none; }
+
+.site-nav {
+  display: flex;
+  gap: 1.2rem;
+  flex: 1;
+  flex-wrap: wrap;
+}
+.site-nav a {
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #777777;
+  border-bottom: none;
+}
+.site-nav a:hover { color: #870002; }
+
+.lang-switch a {
+  font-size: 0.72rem;
+  color: #555555;
+  border: 1px solid #2a2a2a;
+  padding: 0.18rem 0.5rem;
+}
+.lang-switch a:hover {
+  color: #eeeeee;
+  border-color: #870002;
+}
+
+/* ── Main ── */
+.site-main {
+  max-width: 860px;
+  margin: 2.5rem auto;
+  padding: 0 1.5rem;
+}
+
+/* ── Footer ── */
+.site-footer {
+  border-top: 1px solid #1e1e1e;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  color: #3a3a3a;
+  font-size: 0.72rem;
+  margin-top: 4rem;
+}
+
+/* ── Pinned post ── */
+article.pinned-post {
+  border-left: 3px solid #870002;
+  padding-left: 1.4rem;
+  margin-bottom: 3rem;
+}
+article.pinned-post h3 {
+  color: #eeeeee;
+  font-size: 1.1rem;
+  margin-top: 0;
+}
+
+/* ── Code ── */
+code {
+  background: #1a1a1a;
+  color: #cccccc;
+  padding: 0.1em 0.35em;
+  font-family: inherit;
+  font-size: 0.88em;
+  border: 1px solid #2a2a2a;
+  border-radius: 2px;
+}
+pre {
+  background: #111111;
+  border: 1px solid #2a2a2a;
+  border-left: 3px solid #870002;
+  padding: 1rem 1.2rem;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+pre code {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 0.9em;
+}
+
+/* ── Blockquote ── */
+blockquote {
+  border-left: 3px solid #870002;
+  margin: 1.5rem 0;
+  padding: 0.6rem 1.2rem;
+  color: #888888;
+  background: #111111;
+}
+blockquote p { margin: 0; }
+
+/* ── Table ── */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.88rem;
+}
+th {
+  background: #1a1a1a;
+  color: #eeeeee;
+  text-align: left;
+  padding: 0.5rem 0.9rem;
+  border-bottom: 2px solid #870002;
+  letter-spacing: 0.04em;
+}
+td {
+  padding: 0.5rem 0.9rem;
+  border-bottom: 1px solid #1e1e1e;
+}
+tr:hover td { background: #111111; }
+
+/* ── Horizontal rule ── */
+hr {
+  border: none;
+  border-top: 1px solid #2a2a2a;
+  margin: 2.5rem 0;
+}
+
+/* ── Lists ── */
+ul, ol { padding-left: 1.4em; }
+li { margin-bottom: 0.25rem; }
+
+/* ── time ── */
+time {
+  color: #555555;
+  font-size: 0.82em;
+}
+
+/* ── Utility: classified stamp ── */
+.stamp {
+  display: inline-block;
+  border: 1px solid #870002;
+  color: #870002;
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding: 0.1rem 0.5rem;
+  margin-bottom: 1rem;
+  opacity: 0.8;
+}
