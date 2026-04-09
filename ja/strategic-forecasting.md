@@ -18,11 +18,15 @@ author: founder
 {% for slug in pinned_slugs %}
   {% for post in site.posts %}
     {% if post.lang == "ja" and post.url contains slug %}
-- 📌 [{{ post.title }}]({{ post.url | prepend: site.baseurl }})
-  {{ post.description }}
+<article class="pinned-post">
+<h3>📌 {{ post.title }}</h3>
+{{ post.content }}
+</article>
     {% endif %}
   {% endfor %}
 {% endfor %}
+
+---
 
 ## 全記事
 
