@@ -16,9 +16,9 @@ ICD公式サイトへようこそ。
 
 ## セクション
 
-- [構造予報](/ja/strategic-forecasting/)
-- [AI時代の情報リテラシー](/ja/information-discernment/)
-- [アーカイブ](/ja/archives/)
+- [構造予報]({{ site.baseurl }}/ja/strategic-forecasting/)
+- [AI時代の情報リテラシー]({{ site.baseurl }}/ja/information-discernment/)
+- [アーカイブ]({{ site.baseurl }}/ja/archives/)
 
 ## 最新の記事
 

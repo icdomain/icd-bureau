@@ -26,4 +26,4 @@ ICDの建国から現在に至るまでの歩み。
   {% endif %}
 {% endfor %}
 
-[歴史記事をすべて見る → アーカイブ](/ja/archives/)
+[歴史記事をすべて見る → アーカイブ]({{ site.baseurl }}/ja/archives/)

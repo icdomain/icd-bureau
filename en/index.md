@@ -16,9 +16,9 @@ Welcome to the official site of the Independent Compute Domain.
 
 ## Sections
 
-- [Strategic Forecasting](/en/strategic-forecasting/)
-- [Information Discernment](/en/information-discernment/)
-- [Archives](/en/archives/)
+- [Strategic Forecasting]({{ site.baseurl }}/en/strategic-forecasting/)
+- [Information Discernment]({{ site.baseurl }}/en/information-discernment/)
+- [Archives]({{ site.baseurl }}/en/archives/)
 
 ## Latest posts
 

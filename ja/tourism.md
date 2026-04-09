@@ -26,4 +26,4 @@ ICDの観光名所と訪問情報。
   {% endif %}
 {% endfor %}
 
-[観光記事をすべて見る → アーカイブ](/ja/archives/)
+[観光記事をすべて見る → アーカイブ]({{ site.baseurl }}/ja/archives/)

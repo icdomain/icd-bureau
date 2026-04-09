@@ -26,4 +26,4 @@ Technical notes on the construction and operation of the ICD.
   {% endif %}
 {% endfor %}
 
-[See all developer posts → Archives](/en/archives/)
+[See all developer posts → Archives]({{ site.baseurl }}/en/archives/)

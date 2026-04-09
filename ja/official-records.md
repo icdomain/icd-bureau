@@ -26,4 +26,4 @@ ICDの公式布告、決定、記録文書。
   {% endif %}
 {% endfor %}
 
-[公式記録をすべて見る → アーカイブ](/ja/archives/)
+[公式記録をすべて見る → アーカイブ]({{ site.baseurl }}/ja/archives/)

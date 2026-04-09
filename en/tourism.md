@@ -26,4 +26,4 @@ Sights and visitor information for the Independent Compute Domain.
   {% endif %}
 {% endfor %}
 
-[See all tourism posts → Archives](/en/archives/)
+[See all tourism posts → Archives]({{ site.baseurl }}/en/archives/)

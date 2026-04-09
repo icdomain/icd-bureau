@@ -26,4 +26,4 @@ The path of the Independent Compute Domain from its founding to the present day.
   {% endif %}
 {% endfor %}
 
-[See all history posts → Archives](/en/archives/)
+[See all history posts → Archives]({{ site.baseurl }}/en/archives/)

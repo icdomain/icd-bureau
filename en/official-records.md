@@ -26,4 +26,4 @@ Official decrees, decisions, and documents of the ICD.
   {% endif %}
 {% endfor %}
 
-[See all official records → Archives](/en/archives/)
+[See all official records → Archives]({{ site.baseurl }}/en/archives/)

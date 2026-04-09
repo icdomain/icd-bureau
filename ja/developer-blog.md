@@ -26,4 +26,4 @@ ICDの構築・運営に関する技術記録。
   {% endif %}
 {% endfor %}
 
-[開発記事をすべて見る → アーカイブ](/ja/archives/)
+[開発記事をすべて見る → アーカイブ]({{ site.baseurl }}/ja/archives/)
