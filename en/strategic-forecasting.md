@@ -12,6 +12,20 @@ author: founder
 
 # Strategic Forecasting
 
+## Pinned
+
+{% assign pinned_slugs = "ai-revolution-reading-future,ai-revolution-uncontrollable" | split: "," %}
+{% for slug in pinned_slugs %}
+  {% for post in site.posts %}
+    {% if post.lang == "en" and post.url contains slug %}
+- 📌 [{{ post.title }}]({{ post.url | prepend: site.baseurl }})
+  {{ post.description }}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+## All posts
+
 {% assign posts = site.posts | where: "lang", "en" | where_exp: "post", "post.categories contains 'strategic-forecasting'" | sort: "date" | reverse %}
 {% for post in posts %}
 - <time>{{ post.date | date: "%Y-%m-%d" }}</time> [{{ post.title }}]({{ post.url | prepend: site.baseurl }})
