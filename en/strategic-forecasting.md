@@ -36,7 +36,7 @@ author: founder
 
 ---
 
-## All posts
+## Latest
 
 {% assign posts = site.posts | where: "lang", "en" | where_exp: "post", "post.categories contains 'strategic-forecasting'" | sort: "date" | reverse %}
 {% for post in posts %}

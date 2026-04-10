@@ -36,7 +36,7 @@ author: founder
 
 ---
 
-## 全記事
+## 最新記事
 
 {% assign posts = site.posts | where: "lang", "ja" | where_exp: "post", "post.categories contains 'strategic-forecasting'" | sort: "date" | reverse %}
 {% for post in posts %}
