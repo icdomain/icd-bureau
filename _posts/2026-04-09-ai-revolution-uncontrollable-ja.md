@@ -38,7 +38,7 @@ AI革命初期から業界文書が提示してきた役割分担——人間が
 
 人の価値までもが権威に収束する世界で大衆はどのように生きろというのだろうか?
 
-→ 本稿の論拠となるガバナンス文書の一次資料追跡は「[OpenAIとAnthropicにおけるガバナンス文書の追跡 2023-2026](/ja/archives/2026/04/10/governance-documents-tracking/)」を参照。
+→ 本稿の論拠となるガバナンス文書の一次資料追跡は「[OpenAIとAnthropicにおけるガバナンス文書の追跡 2023-2026]({{ site.baseurl }}/ja/archives/2026/04/10/governance-documents-tracking/)」を参照。
 
 ## 関連書籍
 

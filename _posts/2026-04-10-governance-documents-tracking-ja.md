@@ -12,7 +12,7 @@ categories: [strategic-forecasting]
 tags: [AI, ガバナンス, OpenAI, Anthropic, RSP, Model Spec, Preparedness Framework, AI安全性]
 ---
 
-本稿は「[AI革命はすでにアンコントローラブルである](/ja/archives/2026/04/09/ai-revolution-uncontrollable/)」の検証編として、ガバナンス文書の一次資料を時系列で追跡する。
+本稿は「[AI革命はすでにアンコントローラブルである]({{ site.baseurl }}/ja/archives/2026/04/09/ai-revolution-uncontrollable/)」の検証編として、ガバナンス文書の一次資料を時系列で追跡する。
 
 ## 第1期「LLMの黎明」2023年9月19日 〜 2024年5月7日
 

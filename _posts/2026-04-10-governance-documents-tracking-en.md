@@ -12,7 +12,7 @@ categories: [strategic-forecasting]
 tags: [ai, governance, openai, anthropic, rsp, model-spec, preparedness-framework, ai-safety]
 ---
 
-This essay serves as the evidentiary companion to "[The AI Revolution Is Already Uncontrollable](/en/archives/2026/04/09/ai-revolution-uncontrollable/)," tracking industry governance documents chronologically from primary sources.
+This essay serves as the evidentiary companion to "[The AI Revolution Is Already Uncontrollable]({{ site.baseurl }}/en/archives/2026/04/09/ai-revolution-uncontrollable/)," tracking industry governance documents chronologically from primary sources.
 
 ## Phase 1: "The Dawn of LLMs" — September 19, 2023 – May 7, 2024
 
