@@ -18,7 +18,7 @@ body {
 
 /* ── Links ── */
 a {
-  color: #a84446;
+  color: #c08080;
   text-decoration: none;
   border-bottom: 1px solid #870002;
   transition: color 0.15s;
@@ -153,6 +153,7 @@ article.pinned-post h3 {
   color: #eeeeee;
   font-size: 1.1rem;
   margin-top: 0;
+  background-color: #870002;
 }
 
 /* ── Code ── */
@@ -222,8 +223,8 @@ hr {
 /* ── Lists ── */
 ul, ol { padding-left: 1.4em; }
 li { margin-bottom: 0.25rem; }
-ul li::marker { color: #870002; }
-ol li::marker { color: #870002; }
+ul li::marker { color: #cccccc; }
+ol li::marker { color: #cccccc; }
 
 /* ── time ── */
 time {
