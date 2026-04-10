@@ -46,9 +46,12 @@ h1 {
   padding-bottom: 0.35em;
 }
 h2 {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   letter-spacing: 0.03em;
+  display: inline-block;
+  background-color: #870002;
   color: #eeeeee;
+  padding: 0.1em 0.5em;
 }
 h3 {
   font-size: 1rem;
