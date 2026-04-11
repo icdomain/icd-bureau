@@ -4,6 +4,7 @@ title: 能力評価 — 免責事項
 description: 本サイトの AI と人間の能力比較評価に関する免責事項および参考文献。Google DeepMind の Cognitive Taxonomy (Burnell et al., 2026) を参考とした評価方針を説明する。
 permalink: /ja/archives/2026/04/11/capability-evaluation-disclaimer/
 lang: ja
+alt_lang_url: /en/archives/2026/04/11/capability-evaluation-disclaimer/
 date: 2026-04-11T09:00:00Z
 last_modified_at: 2026-04-11T09:00:00Z
 author: founder
