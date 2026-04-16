@@ -10,6 +10,8 @@ last_modified_at: 2026-04-08
 author: founder
 ---
 
+<p style="text-align:center;margin:2rem 0;"><img src="{{ site.baseurl }}/emblem.png" alt="ICD Emblem" style="width:180px;max-width:100%;"></p>
+
 # Independent Compute Domain Intelligence Bureau
 
 ICD諜報局は構造的な未来予報と情報リテラシー教育を通じて、人々の思想的自立と主体的判断力の醸成を目的とする組織です。

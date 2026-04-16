@@ -10,6 +10,8 @@ last_modified_at: 2026-04-08
 author: founder
 ---
 
+<p style="text-align:center;margin:2rem 0;"><img src="{{ site.baseurl }}/emblem.png" alt="ICD Emblem" style="width:180px;max-width:100%;"></p>
+
 # Independent Compute Domain Intelligence Bureau
 
 The ICD Intelligence Bureau is an organization dedicated to fostering intellectual independence and the capacity for autonomous judgment — through structural forecasting and information literacy education.
