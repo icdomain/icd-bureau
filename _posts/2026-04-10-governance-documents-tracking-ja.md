@@ -60,6 +60,7 @@ Preparedness Framework v2 は、AIシステムが「ますます自律的（incr
 これに加えて「SAGには議事妨害の能力はない（the SAG does not have the ability to 'filibuster'）」と明記され、CEOは SAG（安全助言グループ）のメンバーおよび議長を任命できるうえに、バイパスすることも可能となった。取締役会の安全保安委員会（SSC）はCEOの決定を覆せると規定されているが、取締役会の決定にCEOが従わなかった場合、それは倫理や安全性以前に最大のスポンサーである投資家への反乱になるため、最低限度の規定に近い。社内機関が倫理や安全性の観点からAI開発へ介入する経路が封鎖された可能性を示唆する。
 
 ## 第4期「アンコントローラブル」2025年5月14日 〜 現在
+
 OpenAIは自ら定めたassistantの領分を外れていくAgent技術の実装を正当化する一方で、上流の人間がAIによる実装の責任をとらないなどの安易に予想される問題への対処については言及しなかった。AnthropicはASLの適応範囲を縮小し、絶対停止条項を事実上廃止した。
 
 - OpenAI Model Spec 改訂（2025年9月12日版／10月27日版／12月18日版）
@@ -74,7 +75,7 @@ OpenAI Model Spec の9月12日版にagentに関する記述が追加される。
 
 12月18日版では、16歳 Adam Raine の自殺訴訟（2025年8月提訴、年内に計8件の ChatGPT 関連訴訟）を受けて、U18 Principles が追加された。
 
-RSP v2.2 RSP v2.2 では ASL-3 Security Standardの保護対象から高度な内部脅威（sophisticated insiders）および国家関与の内部脅威（state-compromised insiders）が除外され、ASL基準の適用範囲が縮小された。
+RSP v2.2 では ASL-3 Security Standardの保護対象から高度な内部脅威（sophisticated insiders）および国家関与の内部脅威（state-compromised insiders）が除外され、ASL基準の適用範囲が縮小された。
 
 同月、Claude Opus 4 のローンチに際して ASL-3 Deployment / Security Standards が初めて発動された。ASL の枠組みが実際にモデルの展開に適用された最初の事例となる。
 

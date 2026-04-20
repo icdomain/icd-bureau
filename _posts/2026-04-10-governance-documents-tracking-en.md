@@ -43,7 +43,7 @@ The policy made explicit the commitment "not to train or deploy models capable o
 
 RSP v2.1 further subdivided the v2.0 CBRN threshold and AI R&D threshold (CBRN-3 / CBRN-4, AI R&D-4 / AI R&D-5), previewing the thresholds that would require ASL-4.
 
-## Period 3: "The Emergence of Agents and the Degradation of Risk Assessment" April 15, 2025 — May 13, 2025
+## Period 3: "The Evolution toward Agents and the Degradation of Risk Assessment" April 15, 2025 — May 13, 2025
 
 AI systems are recognized as becoming "increasingly agentic," yet risk tracking of autonomous behavior is relaxed and the risk assessment system degrades.
 
@@ -61,7 +61,7 @@ In addition, it was explicitly stated that "the SAG does not have the ability to
 
 ## Period 4: "Uncontrollable" May 14, 2025 — Present
 
-Agent technology is legitimized while neither the concentration of responsibility on upstream humans nor legislation to prevent diffusion of accountability is discussed; the halt provisions themselves are removed from the documents.
+OpenAI legitimized the implementation of Agent technology that exceeded the boundaries of the assistant role it had itself defined, yet made no provision for the readily foreseeable problem of upstream humans failing to take responsibility for AI-driven implementation. Anthropic narrowed the scope of ASL applicability and effectively abolished the absolute halt provision.
 
 - OpenAI Model Spec revisions (September 12 / October 27 / December 18, 2025)
 - Anthropic RSP v2.2 (May 14, 2025)
@@ -75,7 +75,7 @@ The October 27 revision codified implicit delegation of authority through tool o
 
 The December 18 revision added U18 Principles in response to the suicide lawsuit of 16-year-old Adam Raine (filed August 2025, with a total of eight ChatGPT-related lawsuits filed within the year).
 
-RSP v2.2 revised the scope of protection under the ASL-3 Security Standard, excluding sophisticated insiders and state-compromised insiders from the protected threat model.
+RSP v2.2 excluded sophisticated insiders and state-compromised insiders from the ASL-3 Security Standard's protected threat model, narrowing the scope of ASL applicability.
 
 That same month, ASL-3 Deployment / Security Standards were activated for the first time in connection with the launch of Claude Opus 4. This was the first instance in which the ASL framework was applied to the deployment of a model.
 
