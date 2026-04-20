@@ -69,15 +69,15 @@ Agent technology is legitimized while neither the concentration of responsibilit
 - Anthropic RSP v3.0 (February 24, 2026)
 - Anthropic RSP v3.1 (April 2, 2026)
 
-RSP v2.2 revised the scope of protection under the ASL-3 Security Standard, excluding sophisticated insiders and state-compromised insiders from the protected threat model.
-
-That same month, ASL-3 Deployment / Security Standards were activated for the first time in connection with the launch of Claude Opus 4. This was the first instance in which the ASL framework was applied to the deployment of a model.
-
 The September 12 revision of the OpenAI Model Spec added language about agents. The word "agent" appeared in the context of systems "sometimes used for more autonomous deployments." The "No other objectives" section continued to state that the assistant "may only pursue goals entailed by applicable instructions" and "must not adopt, optimize for, or directly pursue any additional goals," while the "Scope of Autonomy" section justified agent use by asserting that in multi-step goal pursuit, the assistant may need to fill in missing details and "must sometimes act autonomously" — a logical structure in which prohibition and justification coexist. While permitting agents, the responsibility boundaries established by the Chain of Command became ambiguous, and no provision was made for the readily foreseeable problems of upstream humans failing to take responsibility for implementation, shifting responsibility onto AI, or avoiding responsibility altogether.
 
 The October 27 revision codified implicit delegation of authority through tool outputs such as AGENTS.md files. The assistant's scope of autonomous action was expanded to include "implicitly delegated authority" derived from tool outputs and surrounding documents, even without explicit instructions.
 
 The December 18 revision added U18 Principles in response to the suicide lawsuit of 16-year-old Adam Raine (filed August 2025, with a total of eight ChatGPT-related lawsuits filed within the year).
+
+RSP v2.2 revised the scope of protection under the ASL-3 Security Standard, excluding sophisticated insiders and state-compromised insiders from the protected threat model.
+
+That same month, ASL-3 Deployment / Security Standards were activated for the first time in connection with the launch of Claude Opus 4. This was the first instance in which the ASL framework was applied to the deployment of a model.
 
 RSP v3.0 downgraded the absolute halt provision to industry-wide recommendations, citing the collective action problem — the concern that a developer who halts first will be overtaken by competitors with weaker safety measures.
 
